@@ -1,7 +1,9 @@
 #include <stdio.h>
+/*
+*low level programming
+*/
 int main(void)
 {
-puts(""Programming is like building a multilingual puzzle"");
-puts("\n");
+puts("/"Programming is like building a multilingual puzzle");
 return 0;
 }
