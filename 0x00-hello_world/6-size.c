@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*Main - Sizeof
+*main - Sizeof
 *Return: 0
 */
 int main(void)
