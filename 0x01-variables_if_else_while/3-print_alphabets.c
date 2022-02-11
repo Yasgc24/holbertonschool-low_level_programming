@@ -1,8 +1,10 @@
 #include <stdio.h>
-/*
-*main - Alphabet
-*Retur: 0
+
+/**
+* main - Alphabet
+* Return: 0
 */
+
 int main(void)
 {
 char alp;
