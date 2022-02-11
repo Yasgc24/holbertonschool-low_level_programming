@@ -7,9 +7,9 @@ int main(void)
 {
 char alp;
 char ALP;
-for (alp = 'a'; alp <= 'z'; alp++; ALP = 'A'; ALP <= 'Z'; ALP++)
-putchar(alp);
-putchat(ALP);
-putchar('\n');
+if (alp = 'a'; alp <= 'z'; alp++) 
+putchar('\n', alp);
+if (ALP = 'A'; ALP <= 'Z'; ALP++)
+putchat('\n', ALP);
 return (0);
 }
