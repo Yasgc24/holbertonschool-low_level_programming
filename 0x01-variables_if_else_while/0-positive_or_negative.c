@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /** 
-*main: Starting
+*main: Print number negative, positive or zero
 *Return: 0
 */
 int main(void)
