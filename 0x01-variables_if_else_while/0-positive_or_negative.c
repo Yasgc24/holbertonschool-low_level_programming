@@ -1,10 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/** 
- *main - Print number negative, positive or zero
- *Return: 0
+/**
+*main - Print number negative, positive or zero
+*Return: 0
 */
 
 int main(void)
