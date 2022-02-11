@@ -5,9 +5,9 @@
 */
 int main(void)
 {
-char a = [a - z];
-for (a = [a - z])
-putchar(a);
+char alp;
+for (alp = 'a'; alp <= 'z'; alp++)
+putchar(alp);
 putchar('\n');
 return (0);
 }
