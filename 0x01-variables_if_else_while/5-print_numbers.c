@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
-* main - Numbers of base 10
+* main - Numbers one digit
 * Return: 0
 */
 int main(void)
 {
-int n;
-for (n >= 0; n < 10)
+char n;
+for (n >= 0; n < 10; n++)
 putchar(n);
 putchar('\n');
 return (0);
