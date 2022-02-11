@@ -8,8 +8,8 @@ int main(void)
 char alp;
 char ALP;
 for (alp = 'a'; alp <= 'z'; alp++) 
-putchar('\n', alp);
+putchar(alp, '\n');
 for (ALP = 'A'; ALP <= 'Z'; ALP++)
-putchat('\n', ALP);
+putchat(ALP, '\n');
 return (0);
 }
