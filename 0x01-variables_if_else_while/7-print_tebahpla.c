@@ -7,7 +7,7 @@ int main(void)
 {
 char alp;
 for (alp = 'z'; alp >= 'z'; alp--)
-putchar(n);
+putchar(alp);
 putchar('\n');
 return (0);
 }
