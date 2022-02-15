@@ -8,11 +8,8 @@
 
 int _islower(int c)
 {
-char ch;
-for (c = 'a'; c <= 'z'; c++)
-{
-if (c == ch)
+if (c >= 'a' && c <= 'z')
 return (1);
-}
+else
 return (0);
 }
