@@ -1,1 +1,1 @@
-int purchar(char c);
+int _purchar(char c);
