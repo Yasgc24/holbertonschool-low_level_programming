@@ -1,0 +1,1 @@
+int purchar(char c);
