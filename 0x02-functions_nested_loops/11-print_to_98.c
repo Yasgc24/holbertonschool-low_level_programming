@@ -8,16 +8,17 @@
 
 void print_to_98(int n)
 {
-while (n != 98)
+int na = 98;
+while (n != na)
 {
-_putchar('n');
+_putchar(n);
 _putchar(',');
 _putchar(' ');
-if (n > 98)
+if (n > na)
 n--;
 else
 n++;
 }
-_putchar(98);
+_putchar(na);
 _putchar('\n');
 }
