@@ -11,7 +11,7 @@ void print_to_98(int n)
 int na = 98;
 while (n != na)
 {
-_putchar(n);
+_putchar('n');
 _putchar(',');
 _putchar(' ');
 if (n > na)
