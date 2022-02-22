@@ -9,17 +9,15 @@
 
 void print_array(int *a, int n)
 {
-int i;
+int b;
 
-for (i = 0;; ++i)
+for (b = 0; b < (n - 1); b++)
 {
-if (a[i] == a[n])
-break;
-printf("%d", a[i]);
-if (i < n - 1)
-{
-printf(", ");
+printf("%d, ", a[n]);
 }
+if (i == (n - 1))
+{
+printf("%d", a[n - 1]);
 }
 printf("\n");
 }
