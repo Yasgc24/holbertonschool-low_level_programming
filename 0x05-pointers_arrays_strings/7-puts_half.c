@@ -16,7 +16,7 @@ int b;
 while (str[n++])
 a++;
 
-if ((a & 2) == 0)
+if ((a % 2) == 0)
 b = a / 2;
 
 else
