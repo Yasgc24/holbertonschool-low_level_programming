@@ -17,7 +17,7 @@ if (str == NULL)
 return (NULL);
 
 for (i = 0; str[i] != '\0'; i++)
-break;
+;
 string = (char *)malloc(i + 1 * sizeof(char));
 if (string != NULL)
 {
