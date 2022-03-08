@@ -28,9 +28,8 @@ array[i] = malloc(sizeof(int) * width);
 
 if (array[i] == NULL)
 {
-for (; i >= 0; i++)
+while (--i >= 0)
 free(array[i]);
-
 free(array);
 return (NULL);
 }
