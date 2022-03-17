@@ -3,6 +3,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "function_pointers.h"
+#include <stddef.h>
+#include <string.h>
+
 /**
  * struct op - Struct op
  *
