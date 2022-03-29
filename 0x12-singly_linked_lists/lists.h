@@ -9,7 +9,7 @@ typedef struct lists
 {
 char *str;
 unsigned int len;
-struct lists* next;
+struct lists *next;
 } list_t;
 
 size_t print_list(const list_t *h);
