@@ -5,11 +5,11 @@
 #include <string.h>
 #include <stdio.h>
 
-typedef struct lists
+typedef struct list_s
 {
 char *str;
 unsigned int len;
-struct lists *next;
+struct list_s *next;
 } list_t;
 
 size_t print_list(const list_t *h);
