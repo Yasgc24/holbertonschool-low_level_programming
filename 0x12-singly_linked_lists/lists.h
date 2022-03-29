@@ -5,6 +5,12 @@
 #include <string.h>
 #include <stdio.h>
 
+/**
+ * struct list_s - Singly linked lists
+ * @str: string
+ * @len: size of the string
+ * @next: pointer to the next node
+ */
 typedef struct list_s
 {
 char *str;
