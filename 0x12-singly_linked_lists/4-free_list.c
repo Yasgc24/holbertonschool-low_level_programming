@@ -13,6 +13,7 @@ while (head != NULL)
 {
 vatemp = head;
 head = head->next;
+free(vatemp->str);
 free(vatemp);
 }
 }
