@@ -15,8 +15,8 @@ return;
 
 while (*head)
 {
-vatemp = (*(*head)).next;
-free(head);
+vatemp = (*head)->next;
+free(*head);
 *head = vatemp;
 }
 head = NULL;
