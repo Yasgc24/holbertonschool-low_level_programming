@@ -8,8 +8,8 @@
 
 int sum_listint(listint_t *head)
 {
-int sum;
-while (sum = 0 && head)
+int sum = 0;
+while (head)
 {
 sum += head->n;
 head = head->next;
