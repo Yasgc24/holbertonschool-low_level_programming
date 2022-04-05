@@ -15,7 +15,7 @@ n = n ^ m;
 while (n > 0)
 {
 if (n & 1)
-count ++;
+count++;
 n = n >> 1;
 }
 return (count);
