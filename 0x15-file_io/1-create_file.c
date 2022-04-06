@@ -9,7 +9,7 @@
 
 int create_file(const char *filename, char *text_content)
 {
-int file, writefile, count = 0; 
+int file, writefile, count = 0;
 
 if (filename == NULL)
 {
@@ -23,12 +23,7 @@ if (file == -1)
 return (-1);
 }
 
-if (text_content == NULL)
-{
-file = open(filename, O_CREAT, 0600);
-close (file);
-return (1);
-}
+
 while (text_content[count] != '\0')
 count++;
 
