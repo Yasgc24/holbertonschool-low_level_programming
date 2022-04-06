@@ -23,8 +23,7 @@ if (file == -1)
 return (-1);
 }
 
-
-while (text_content[count] != '\0')
+while (text_content && text_content[count])
 count++;
 
 writefile = write(file, text_content, count);
