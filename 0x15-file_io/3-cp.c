@@ -20,6 +20,8 @@ exit(97);
 }
 
 file1 = open(argv[1], O_RDONLY);
+
+while (readfile == 1024)
 {
 readfile = read(file1, buffer, 1024);
 if (buffer == NULL || file1 == -1 || readfile == -1)
