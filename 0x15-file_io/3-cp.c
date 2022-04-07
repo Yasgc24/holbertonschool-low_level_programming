@@ -40,15 +40,11 @@ exit(99);
 free(buffer);
 }
 closefile1 = close(file1);
-if (closefile1 == -1)
-{
-dprintf(STDERR_FILENO, "Error: Can't close fd %i\n", file1);
-exit(100);
-}
 closefile2 = close(file2);
-if (closefile2 == -1)
+
+if (closefile1 == -1 || closefile2 == -1)
 {
-dprintf(STDERR_FILENO, "Error: Can't close fd %i\n", file2);
+dprintf(STDERR_FILENO, "Error: Can't close fd %i\n", (closefile1 == -1) ? file1 : file2);
 exit(100);
 }
 return (0);
