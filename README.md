@@ -2,5 +2,5 @@
 
 #### This repository contains projects written in the python language for the Holberton School program
 ***
-##### Author
+## Author
 Yasmin Giraldo
