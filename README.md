@@ -1,6 +1,7 @@
-![image](https://user-images.githubusercontent.com/98331961/171736208-827b30f9-2243-4899-9158-c5d6ea7645bf.png)
+![image](https://user-images.githubusercontent.com/98331961/172257977-44983867-286a-429c-a0a5-84a276e07e7c.png)
 
-#### This repository contains projects written in the python language for the Holberton School program
+
+#### This repository contains projects written in the C language for the Holberton School program
 ***
 ## Author
 Yasmin Giraldo
