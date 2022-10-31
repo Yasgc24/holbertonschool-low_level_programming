@@ -4,4 +4,4 @@
 #### This repository contains projects written in the C language for the Holberton School program
 ***
 ## Author
-Yasmin Giraldo[https://github.com/Yasgc24]
+(Yasmin Giraldo)[https://github.com/Yasgc24]
