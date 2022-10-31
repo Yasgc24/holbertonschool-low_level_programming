@@ -1,7 +1,7 @@
 # 0x00. C - Hello, World
 ***
 
-![image](![image]([https://user-images.githubusercontent.com/98331961/199118348-17ae28b7-3a5b-4ff8-94ed-f497236c6ae3.png](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/212/cisfun.jpg)))
+(![image]([https://user-images.githubusercontent.com/98331961/199118348-17ae28b7-3a5b-4ff8-94ed-f497236c6ae3.png](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/212/cisfun.jpg)))
 
 
 ## General
