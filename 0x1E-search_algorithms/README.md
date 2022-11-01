@@ -61,6 +61,7 @@ What is the space complexity (worst case) of a binary search in an array of size
 
 #### 6. Big O #4
 What is the space complexity of this function / algorithm?
+
 int **allocate_map(int n, int m)
 {
      int **map;
